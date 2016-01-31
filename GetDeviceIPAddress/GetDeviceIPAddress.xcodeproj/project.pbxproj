@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DE68F6D1C5A479F0072FA55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE68F6C1C5A479F0072FA55 /* main.m */; };
+		9DE68F701C5A479F0072FA55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE68F6F1C5A479F0072FA55 /* AppDelegate.m */; };
+		9DE68F731C5A479F0072FA55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE68F721C5A479F0072FA55 /* ViewController.m */; };
+		9DE68F761C5A479F0072FA55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE68F741C5A479F0072FA55 /* Main.storyboard */; };
+		9DE68F781C5A479F0072FA55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE68F771C5A479F0072FA55 /* Assets.xcassets */; };
+		9DE68F7B1C5A479F0072FA55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE68F791C5A479F0072FA55 /* LaunchScreen.storyboard */; };
+		9DE68F861C5A479F0072FA55 /* GetDeviceIPAddressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE68F851C5A479F0072FA55 /* GetDeviceIPAddressTests.m */; };
+		9DE68F911C5A47A00072FA55 /* GetDeviceIPAddressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE68F901C5A47A00072FA55 /* GetDeviceIPAddressUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DE68F821C5A479F0072FA55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DE68F601C5A479F0072FA55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DE68F671C5A479F0072FA55;
+			remoteInfo = GetDeviceIPAddress;
+		};
+		9DE68F8D1C5A47A00072FA55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DE68F601C5A479F0072FA55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DE68F671C5A479F0072FA55;
+			remoteInfo = GetDeviceIPAddress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DE68F681C5A479F0072FA55 /* GetDeviceIPAddress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetDeviceIPAddress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE68F6C1C5A479F0072FA55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DE68F6E1C5A479F0072FA55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DE68F6F1C5A479F0072FA55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DE68F711C5A479F0072FA55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9DE68F721C5A479F0072FA55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9DE68F751C5A479F0072FA55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DE68F771C5A479F0072FA55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DE68F7A1C5A479F0072FA55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DE68F7C1C5A479F0072FA55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DE68F811C5A479F0072FA55 /* GetDeviceIPAddressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetDeviceIPAddressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE68F851C5A479F0072FA55 /* GetDeviceIPAddressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetDeviceIPAddressTests.m; sourceTree = "<group>"; };
+		9DE68F871C5A47A00072FA55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DE68F8C1C5A47A00072FA55 /* GetDeviceIPAddressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetDeviceIPAddressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE68F901C5A47A00072FA55 /* GetDeviceIPAddressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetDeviceIPAddressUITests.m; sourceTree = "<group>"; };
+		9DE68F921C5A47A00072FA55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DE68F651C5A479F0072FA55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE68F7E1C5A479F0072FA55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE68F891C5A47A00072FA55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DE68F5F1C5A479F0072FA55 = {
+			isa = PBXGroup;
+			children = (
+				9DE68F6A1C5A479F0072FA55 /* GetDeviceIPAddress */,
+				9DE68F841C5A479F0072FA55 /* GetDeviceIPAddressTests */,
+				9DE68F8F1C5A47A00072FA55 /* GetDeviceIPAddressUITests */,
+				9DE68F691C5A479F0072FA55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DE68F691C5A479F0072FA55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DE68F681C5A479F0072FA55 /* GetDeviceIPAddress.app */,
+				9DE68F811C5A479F0072FA55 /* GetDeviceIPAddressTests.xctest */,
+				9DE68F8C1C5A47A00072FA55 /* GetDeviceIPAddressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DE68F6A1C5A479F0072FA55 /* GetDeviceIPAddress */ = {
+			isa = PBXGroup;
+			children = (
+				9DE68F6E1C5A479F0072FA55 /* AppDelegate.h */,
+				9DE68F6F1C5A479F0072FA55 /* AppDelegate.m */,
+				9DE68F711C5A479F0072FA55 /* ViewController.h */,
+				9DE68F721C5A479F0072FA55 /* ViewController.m */,
+				9DE68F741C5A479F0072FA55 /* Main.storyboard */,
+				9DE68F771C5A479F0072FA55 /* Assets.xcassets */,
+				9DE68F791C5A479F0072FA55 /* LaunchScreen.storyboard */,
+				9DE68F7C1C5A479F0072FA55 /* Info.plist */,
+				9DE68F6B1C5A479F0072FA55 /* Supporting Files */,
+			);
+			path = GetDeviceIPAddress;
+			sourceTree = "<group>";
+		};
+		9DE68F6B1C5A479F0072FA55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DE68F6C1C5A479F0072FA55 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DE68F841C5A479F0072FA55 /* GetDeviceIPAddressTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DE68F851C5A479F0072FA55 /* GetDeviceIPAddressTests.m */,
+				9DE68F871C5A47A00072FA55 /* Info.plist */,
+			);
+			path = GetDeviceIPAddressTests;
+			sourceTree = "<group>";
+		};
+		9DE68F8F1C5A47A00072FA55 /* GetDeviceIPAddressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DE68F901C5A47A00072FA55 /* GetDeviceIPAddressUITests.m */,
+				9DE68F921C5A47A00072FA55 /* Info.plist */,
+			);
+			path = GetDeviceIPAddressUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DE68F671C5A479F0072FA55 /* GetDeviceIPAddress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DE68F951C5A47A00072FA55 /* Build configuration list for PBXNativeTarget "GetDeviceIPAddress" */;
+			buildPhases = (
+				9DE68F641C5A479F0072FA55 /* Sources */,
+				9DE68F651C5A479F0072FA55 /* Frameworks */,
+				9DE68F661C5A479F0072FA55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetDeviceIPAddress;
+			productName = GetDeviceIPAddress;
+			productReference = 9DE68F681C5A479F0072FA55 /* GetDeviceIPAddress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DE68F801C5A479F0072FA55 /* GetDeviceIPAddressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DE68F981C5A47A00072FA55 /* Build configuration list for PBXNativeTarget "GetDeviceIPAddressTests" */;
+			buildPhases = (
+				9DE68F7D1C5A479F0072FA55 /* Sources */,
+				9DE68F7E1C5A479F0072FA55 /* Frameworks */,
+				9DE68F7F1C5A479F0072FA55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DE68F831C5A479F0072FA55 /* PBXTargetDependency */,
+			);
+			name = GetDeviceIPAddressTests;
+			productName = GetDeviceIPAddressTests;
+			productReference = 9DE68F811C5A479F0072FA55 /* GetDeviceIPAddressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DE68F8B1C5A47A00072FA55 /* GetDeviceIPAddressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DE68F9B1C5A47A00072FA55 /* Build configuration list for PBXNativeTarget "GetDeviceIPAddressUITests" */;
+			buildPhases = (
+				9DE68F881C5A47A00072FA55 /* Sources */,
+				9DE68F891C5A47A00072FA55 /* Frameworks */,
+				9DE68F8A1C5A47A00072FA55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DE68F8E1C5A47A00072FA55 /* PBXTargetDependency */,
+			);
+			name = GetDeviceIPAddressUITests;
+			productName = GetDeviceIPAddressUITests;
+			productReference = 9DE68F8C1C5A47A00072FA55 /* GetDeviceIPAddressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DE68F601C5A479F0072FA55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lysongzi;
+				TargetAttributes = {
+					9DE68F671C5A479F0072FA55 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R5G98FQWCS;
+					};
+					9DE68F801C5A479F0072FA55 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R5G98FQWCS;
+						TestTargetID = 9DE68F671C5A479F0072FA55;
+					};
+					9DE68F8B1C5A47A00072FA55 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R5G98FQWCS;
+						TestTargetID = 9DE68F671C5A479F0072FA55;
+					};
+				};
+			};
+			buildConfigurationList = 9DE68F631C5A479F0072FA55 /* Build configuration list for PBXProject "GetDeviceIPAddress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DE68F5F1C5A479F0072FA55;
+			productRefGroup = 9DE68F691C5A479F0072FA55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DE68F671C5A479F0072FA55 /* GetDeviceIPAddress */,
+				9DE68F801C5A479F0072FA55 /* GetDeviceIPAddressTests */,
+				9DE68F8B1C5A47A00072FA55 /* GetDeviceIPAddressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DE68F661C5A479F0072FA55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE68F7B1C5A479F0072FA55 /* LaunchScreen.storyboard in Resources */,
+				9DE68F781C5A479F0072FA55 /* Assets.xcassets in Resources */,
+				9DE68F761C5A479F0072FA55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE68F7F1C5A479F0072FA55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE68F8A1C5A47A00072FA55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DE68F641C5A479F0072FA55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE68F731C5A479F0072FA55 /* ViewController.m in Sources */,
+				9DE68F701C5A479F0072FA55 /* AppDelegate.m in Sources */,
+				9DE68F6D1C5A479F0072FA55 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE68F7D1C5A479F0072FA55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE68F861C5A479F0072FA55 /* GetDeviceIPAddressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE68F881C5A47A00072FA55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE68F911C5A47A00072FA55 /* GetDeviceIPAddressUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DE68F831C5A479F0072FA55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DE68F671C5A479F0072FA55 /* GetDeviceIPAddress */;
+			targetProxy = 9DE68F821C5A479F0072FA55 /* PBXContainerItemProxy */;
+		};
+		9DE68F8E1C5A47A00072FA55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DE68F671C5A479F0072FA55 /* GetDeviceIPAddress */;
+			targetProxy = 9DE68F8D1C5A47A00072FA55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DE68F741C5A479F0072FA55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DE68F751C5A479F0072FA55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DE68F791C5A479F0072FA55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DE68F7A1C5A479F0072FA55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DE68F931C5A47A00072FA55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9DE68F941C5A47A00072FA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DE68F961C5A47A00072FA55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetDeviceIPAddress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lysongzi.GetDeviceIPAddress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DE68F971C5A47A00072FA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GetDeviceIPAddress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lysongzi.GetDeviceIPAddress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9DE68F991C5A47A00072FA55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GetDeviceIPAddressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lysongzi.GetDeviceIPAddressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetDeviceIPAddress.app/GetDeviceIPAddress";
+			};
+			name = Debug;
+		};
+		9DE68F9A1C5A47A00072FA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GetDeviceIPAddressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lysongzi.GetDeviceIPAddressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetDeviceIPAddress.app/GetDeviceIPAddress";
+			};
+			name = Release;
+		};
+		9DE68F9C1C5A47A00072FA55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GetDeviceIPAddressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lysongzi.GetDeviceIPAddressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetDeviceIPAddress;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9DE68F9D1C5A47A00072FA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GetDeviceIPAddressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lysongzi.GetDeviceIPAddressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GetDeviceIPAddress;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DE68F631C5A479F0072FA55 /* Build configuration list for PBXProject "GetDeviceIPAddress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE68F931C5A47A00072FA55 /* Debug */,
+				9DE68F941C5A47A00072FA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DE68F951C5A47A00072FA55 /* Build configuration list for PBXNativeTarget "GetDeviceIPAddress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE68F961C5A47A00072FA55 /* Debug */,
+				9DE68F971C5A47A00072FA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DE68F981C5A47A00072FA55 /* Build configuration list for PBXNativeTarget "GetDeviceIPAddressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE68F991C5A47A00072FA55 /* Debug */,
+				9DE68F9A1C5A47A00072FA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DE68F9B1C5A47A00072FA55 /* Build configuration list for PBXNativeTarget "GetDeviceIPAddressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE68F9C1C5A47A00072FA55 /* Debug */,
+				9DE68F9D1C5A47A00072FA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DE68F601C5A479F0072FA55 /* Project object */;
+}
