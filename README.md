@@ -12,7 +12,10 @@ iOS学习过程中一些代码合集。
 * NSNotificationDemon。
 * SingletonNormalDemon。
 * SingletonAdvancedDemon。
-* ThreadDemon。[iOS-多线程编程学习之NSOperation(四)](http://lysongzi.com/2016/02/23/iOS-多线程编程学习之NSOperation-四/)
+* ThreadDemon。
+	* [iOS-多线程编程学习之pthread创建线程(二)](http://lysongzi.com/2016/02/23/iOS-多线程编程学习之pthread创建线程-二/)
+	* [iOS-多线程编程学习之NSThread(三)](http://lysongzi.com/2016/02/23/iOS-多线程编程学习之NSThread-三/)
+	* [iOS-多线程编程学习之NSOperation(四)](http://lysongzi.com/2016/02/23/iOS-多线程编程学习之NSOperation-四/)
 
 ## UI界面学习
 
