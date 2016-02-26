@@ -8,7 +8,6 @@ iOS学习过程中一些代码合集。
 * XMLParser。[iOS-XML文档解析(NSXMLParser)](http://lysongzi.com/2016/01/23/iOS-XML文档解析(NSXMLParser)/)
 * DelayPerformSelector。[iOS-延迟操作方法总结](http://lysongzi.com/2016/01/30/iOS-延迟操作方法总结/)
 * CoreLocationTest。[iOS-使用CoreLocation定位](http://lysongzi.com/2016/01/24/iOS-使用CoreLocation定位/)
-* NSOperationDemon。
 * NSNotificationDemon。
 * SingletonNormalDemon。
 * SingletonAdvancedDemon。
