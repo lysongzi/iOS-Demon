@@ -14,8 +14,8 @@ int main(int argc, const char * argv[]) {
         //测试代码
         GCDTest *test = [GCDTest new];
         //[test testSerialQueue];
-        [test testConcurrentQueue];
-        //[test testGroup];
+        //[test testConcurrentQueue];
+        [test testGroup];
         //[test testBarrier];
         //[test testAfter];
         //[test testApply];

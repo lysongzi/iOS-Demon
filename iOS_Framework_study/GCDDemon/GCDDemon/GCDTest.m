@@ -10,11 +10,6 @@
 
 @interface GCDTest ()
 
-@property (strong, nonatomic) dispatch_queue_t serialQueue;
-@property (strong, nonatomic) dispatch_queue_t concurrentQueue;
-@property (strong, nonatomic) dispatch_queue_t mainQueue;
-@property (strong, nonatomic) dispatch_queue_t globalQueue;
-
 @end
 
 @implementation GCDTest
@@ -37,31 +32,31 @@
 -(void)testSerialQueue
 {
     //创建串行队列,传入参数为DISPATCH_QUEUE_SERIAL
-    self.serialQueue = dispatch_queue_create("com.lysongzi.serial", DISPATCH_QUEUE_SERIAL);
+    dispatch_queue_t serialQueue = dispatch_queue_create("com.lysongzi.serial", DISPATCH_QUEUE_SERIAL);
     
     //同步执行队列中的任务，会立即在当前线程执行该任务
-    dispatch_sync(self.serialQueue, ^{
+    dispatch_sync(serialQueue, ^{
         NSLog(@"这里是同步执行的串行队列01。===> %@", [NSThread currentThread]);
     });
     
     //异步执行任务，会新开一个线程，多个任务按顺序执行
-    dispatch_async(self.serialQueue, ^{
+    dispatch_async(serialQueue, ^{
         for (int i = 0; i < 3; i++) {
             NSLog(@"串行01 ===> %d ===> %@", i, [NSThread currentThread]);
         }
     });
     
-    dispatch_sync(self.serialQueue, ^{
+    dispatch_sync(serialQueue, ^{
         NSLog(@"这里是同步执行的串行队列02。===> %@", [NSThread currentThread]);
     });
     
-    dispatch_async(self.serialQueue, ^{
+    dispatch_async(serialQueue, ^{
         for (int i = 0; i < 3; i++) {
             NSLog(@"串行02 ===> %d ===> %@", i, [NSThread currentThread]);
         }
     });
     
-    dispatch_async(self.serialQueue, ^{
+    dispatch_async(serialQueue, ^{
         for (int i = 0; i < 3; i++) {
             NSLog(@"串行03 ===> %d ===> %@", i, [NSThread currentThread]);
         }
@@ -72,34 +67,34 @@
 -(void)testConcurrentQueue
 {
     //创建并发队列，传入参数为DISPATCH_QUEUE_CONCURRENT
-    self.concurrentQueue = dispatch_queue_create("com.lysongzi.concurrent", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_queue_t concurrentQueue = dispatch_queue_create("com.lysongzi.concurrent", DISPATCH_QUEUE_CONCURRENT);
     
     //同步执行队列中的任务，会立即执行该任务
-    dispatch_sync(self.concurrentQueue, ^{
+    dispatch_sync(concurrentQueue, ^{
         for (int i = 0; i < 3; i++) {
             NSLog(@"并发同步01 ===> %d ===> %@", i, [NSThread currentThread]);
         }
     });
     
-    dispatch_sync(self.concurrentQueue, ^{
+    dispatch_sync(concurrentQueue, ^{
         for (int i = 0; i < 3; i++) {
             NSLog(@"并发同步02 ===> %d ===> %@", i, [NSThread currentThread]);
         }
     });
     
-    dispatch_async(self.concurrentQueue, ^{
+    dispatch_async(concurrentQueue, ^{
         for (int i = 0; i < 5; i++) {
             NSLog(@"并发异步01 ===> %d ===> %@", i, [NSThread currentThread]);
         }
     });
     
-    dispatch_async(self.concurrentQueue, ^{
+    dispatch_async(concurrentQueue, ^{
         for (int i = 0; i < 5; i++) {
             NSLog(@"并发异步02 ===> %d ===> %@", i, [NSThread currentThread]);
         }
     });
     
-    dispatch_async(self.concurrentQueue, ^{
+    dispatch_async(concurrentQueue, ^{
         for (int i = 0; i < 5; i++) {
             NSLog(@"并发异步03 ===> %d ===> %@", i, [NSThread currentThread]);
         }
@@ -109,7 +104,7 @@
 -(void)testMainQueue
 {
     //获取主线程队列，在主队列中的任务都将在主线程中执行
-    self.mainQueue = dispatch_get_main_queue();
+    dispatch_queue_t mainQueue = dispatch_get_main_queue();
 }
 
 -(void)testGlobalQueue
@@ -123,7 +118,7 @@
     //DISPATCH_QUEUE_PRIORITY_DEFAULT 0 ,默认优先级，中
     //DISPATCH_QUEUE_PRIORITY_LOW -2 ,优先级低
     //DISPATCH_QUEUE_PRIORITY_BACKGROUND INT16_MIN ,后台模式-优先级最低
-    self.concurrentQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    dispatch_queue_t concurrentQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
 }
 
 -(void)testGroup
@@ -137,7 +132,7 @@
     dispatch_group_t group = dispatch_group_create();
     
     //自定义一个串行队列
-    dispatch_queue_t myQueue = dispatch_queue_create("com.lysongzi.myqueue", DISPATCH_QUEUE_PRIORITY_DEFAULT);
+    dispatch_queue_t myQueue = dispatch_queue_create("com.lysongzi.myqueue", DISPATCH_QUEUE_SERIAL);
     
     //获取全局队列
     dispatch_queue_t gloabalQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
@@ -251,6 +246,7 @@
         NSLog(@"%d", number);
         
         number++;
+        //运行到第6秒则取消计时器
         if (number == 6) {
             dispatch_source_cancel(source);
             NSLog(@"Cancle timer.");
