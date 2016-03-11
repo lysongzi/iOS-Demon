@@ -20,7 +20,11 @@ iOS学习过程中一些代码合集。
 	* [iOS-多线程编程学习之GCD——线程组、延时、计时器等(六)](http://lysongzi.com/2016/02/26/iOS-多线程编程学习之GCD——线程组、延时、计时器等-六/)
 * KVCAndKVODemon。[iOS-KVC/KVO学习](http://lysongzi.com/2016/02/28/iOS-KVC-KVO学习/)
 * RuntimeDemon。
+	* [Objective-C Runtime 学习(一)](http://lysongzi.com/2016/03/05/Objective-C-Runtime-学习-一/)
+	* [Objective-C Runtime 学习(二)](http://lysongzi.com/2016/03/09/Objective-C-Runtime-学习-二/)
+	* [Objective-C Runtime 学习(三)](http://lysongzi.com/2016/03/09/Objective-C-Runtime-学习-三/)
 * RuntimeDemonSecond。
+
 
 ## UI界面学习
 
@@ -28,6 +32,7 @@ iOS学习过程中一些代码合集。
 * CircleImageView。[iOS-圆形图像显示(UIImageView)](http://lysongzi.com/2016/02/04/iOS-圆形图像显示/)
 * AutoLayoutDemon。[iOS-AutoLayout布局学习](http://lysongzi.com/2016/02/12/iOS-AutoLayout布局学习/)
 * MasonryDemon。[iOS-Masonry学习笔记](http://lysongzi.com/2016/02/20/iOS-Masonry学习笔记/)
+* UIScrollviewAndHideView。[iOS-UIScrollview滑动时标题栏自动隐藏和显示效果](http://lysongzi.com/2016/03/11/iOS-UIScrollview滑动时标题栏自动隐藏和显示效果/)
 
 ## 第三方库学习
 
